@@ -1,133 +1,185 @@
-# 🛠️ Fix The Issue (FTI)
+🛠️ Fix The Issue (FTI)
 
-**Fix The Issue (FTI)** is a full-stack **Hostel Complaint Management System** designed to streamline how hostel-related issues are reported, managed, and resolved.
+Fix The Issue (FTI) is a full-stack Hostel Complaint Management System built to digitize and streamline hostel issue reporting, assignment, and resolution.
 
-Students can raise complaints, wardens can assign them, and staff can resolve them — all with a transparent, role-based workflow.
+Students raise complaints, wardens manage them, and staff resolve them — all through a transparent, role-based workflow.
 
-🌐 **Live Website**: https://fix-the-issue.vercel.app  
-🔗 **Backend API**: https://fti-backend-0uey.onrender.com  
+🌐 Live Website: https://fix-the-issue.vercel.app
 
----
+🔗 Backend API: https://fti-backend-0uey.onrender.com
 
-## 🎯 Purpose of the Project
+🎯 Purpose of the Project
 
-Traditional hostel complaint systems are slow, opaque, and unstructured.  
-FTI solves this by providing:
+Traditional hostel complaint systems are slow, manual, and lack transparency.
+FTI addresses these problems by providing:
 
-- A centralized complaint system
-- Role-based access (Student / Admin / Staff)
-- Real-time status tracking
-- Clear accountability and transparency
+A centralized complaint management platform
 
----
+Clear role-based responsibilities
 
-## 👥 User Roles & Capabilities
+Real-time complaint tracking
 
-### 👩‍🎓 Student
-- Register & login
-- Raise hostel complaints
-- View complaint status
-- Track resolution progress
+Accountability at every stage
 
-### 🧑‍💼 Admin (Warden)
-- Secure admin login
-- View all complaints
-- Assign complaints to staff
-- Monitor analytics and system health
+👥 User Roles & Capabilities
+👩‍🎓 Student
 
-### 🧑‍🔧 Staff
-- Staff login
-- View assigned complaints
-- Update complaint status:
-  - In Progress
-  - Resolved
+Register & login securely
 
----
+Raise hostel complaints
 
-## 🚀 Core Features
+View complaint status
 
-- JWT-based authentication
-- Role-based authorization
-- Complaint lifecycle management
-- Admin analytics dashboard
-- Secure password hashing (bcrypt)
-- Fully responsive UI
-- Production-ready backend APIs
+Track resolution progress
 
----
+🧑‍💼 Admin (Warden)
 
-## 🧠 Tech Stack
+Secure admin login
 
-### Frontend
-- React (Vite)
-- Tailwind CSS
-- Framer Motion
-- Axios
-- Vercel (Deployment)
+View all complaints
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- JWT Authentication
-- Render (Deployment)
+Assign complaints to staff
 
----
+Monitor analytics & system status
 
-## 🗂️ Project Structure
+🧑‍🔧 Staff
+
+Staff login
+
+View assigned complaints
+
+Update complaint status:
+
+In Progress
+
+Resolved
+
+🚀 Core Features
+
+JWT-based authentication
+
+Role-based authorization
+
+Complaint lifecycle management
+
+Admin analytics dashboard
+
+Secure password hashing (bcrypt)
+
+Fully responsive UI
+
+Production-ready REST APIs
+
+🖼️ Screenshots
+
+📌 Note: Place all screenshots inside a /screenshots folder in the root directory.
+
+🔐 Authentication
+
+
+
+
+👩‍🎓 Student Dashboard
+
+
+
+
+
+
+🧑‍💼 Admin (Warden) Panel
+
+
+
+
+
+
+🧑‍🔧 Staff Panel
+
+
+
+
+🧠 Tech Stack
+Frontend
+
+React (Vite)
+
+Tailwind CSS
+
+Framer Motion
+
+Axios
+
+Vercel (Deployment)
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB Atlas
+
+Mongoose
+
+JWT Authentication
+
+Render (Deployment)
+
+🗂️ Project Structure
 FTI/
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ ├── api/
-│ │ └── App.jsx
-│ ├── .env
-│ └── package.json
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── api/
+│   │   └── App.jsx
+│   ├── .env
+│   └── package.json
 │
 ├── backend/
-│ ├── src/
-│ │ ├── routes/
-│ │ ├── models/
-│ │ ├── middleware/
-│ │ ├── seed/
-│ │ └── server.js
-│ ├── .env
-│ └── package.json
+│   ├── src/
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   ├── seed/
+│   │   └── server.js
+│   ├── .env
+│   └── package.json
+│
+├── screenshots/
+│   └── *.png
 │
 └── README.md
 
+🔐 Authentication & Security
 
----
+Passwords hashed using bcrypt
 
-## 🔐 Authentication & Security
+JWT-based authentication
 
-- Passwords hashed using **bcrypt**
-- JWT tokens for session management
-- Role-based route protection (backend + frontend)
-- Secure CORS configuration for production
+Role-based route protection (frontend + backend)
 
----
+Secure CORS configuration for production
 
-## 📊 Admin Analytics
+📊 Admin Analytics
 
 Admins can view:
-- Total complaints
-- Pending complaints
-- Assigned complaints
-- Resolved complaints
-- Complaints by category
 
-This helps wardens make faster and informed decisions.
+Total complaints
 
----
+Pending complaints
 
-## ⚙️ Environment Variables
+Assigned complaints
 
-### Backend (`backend/.env`)
-```env
+Resolved complaints
+
+Complaints by category
+
+This enables faster decisions and better hostel management.
+
+⚙️ Environment Variables
+Backend (backend/.env)
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_jwt_secret
@@ -137,7 +189,7 @@ Frontend (frontend/.env)
 VITE_API_BASE_URL=https://fti-backend-0uey.onrender.com/api
 
 🧪 Run Locally
-1️⃣ Clone the repository
+1️⃣ Clone the Repository
 git clone https://github.com/arangasakthivel/FTI.git
 cd FTI
 
@@ -165,13 +217,13 @@ Backend: Render
 
 Database: MongoDB Atlas
 
-Environment variables are configured separately in Vercel and Render dashboards.
+Environment variables are configured in respective deployment dashboards.
 
 🧩 Known Limitations
 
-No email notifications (yet)
+No email notifications
 
-No file uploads for complaints
+No file attachments for complaints
 
 Admin accounts are seeded manually
 
@@ -185,10 +237,12 @@ Advanced filtering & search
 
 SLA tracking
 
-Audit logs for admins
+Admin audit logs
 
 👤 Author
 
 Aranga Sakthivel
-🎓 B.Tech IT | VIT
+🎓 B.Tech Information Technology | VIT
 💻 GitHub: https://github.com/arangasakthivel
+
+⭐ If you found this project useful, feel free to star the repository!
