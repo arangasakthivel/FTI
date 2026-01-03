@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../../api/axios";
-import CursorGlow from "../../components/CursorGlow"; // ✅ ADD THIS
+import CursorGlow from "../components/cursorGlow/CursorGlow";
 
 const StaffAuth = () => {
   const navigate = useNavigate();
