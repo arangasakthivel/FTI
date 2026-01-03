@@ -58,25 +58,33 @@ Traditional hostel complaint systems are slow, manual, and lack transparency.
 
 ## 🖼️ Screenshots
 
-> 📌 Place all screenshots inside a `/screenshots` folder in the root directory.
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 28 38 PM" src="https://github.com/user-attachments/assets/7aae9dcb-c37e-46ed-aa82-8946cc8f5e68" />
 
 ### 🔐 Authentication
-![Login Page](screenshots/login.png)  
-![Register Page](screenshots/register.png)
+
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 28 41 PM" src="https://github.com/user-attachments/assets/9882ab3a-e85d-4acd-86f3-1708f5110ab2" />
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 28 45 PM" src="https://github.com/user-attachments/assets/e7bed974-364c-426d-bc91-7cf509bbece9" />
 
 ### 👩‍🎓 Student Dashboard
-![Student Dashboard](screenshots/student-dashboard.png)  
-![Raise Complaint](screenshots/raise-complaint.png)  
-![Complaint Status](screenshots/complaint-status.png)
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 29 19 PM" src="https://github.com/user-attachments/assets/135f350f-f922-4b95-8163-87cede6f1c85" />
+
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 29 24 PM" src="https://github.com/user-attachments/assets/7c875ef4-591e-4bdf-be0a-9b49e46cb40c" />
+
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 17 PM" src="https://github.com/user-attachments/assets/85c3e5fd-c634-4d9f-b6ec-5500c3e7aa94" />
+
 
 ### 🧑‍💼 Admin (Warden) Panel
-![Admin Dashboard](screenshots/admin-dashboard.png)  
-![Assign Complaint](screenshots/assign-complaint.png)  
-![Analytics](screenshots/admin-analytics.png)
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 17 PM" src="https://github.com/user-attachments/assets/19c083c4-3912-416c-a7bc-0c38ea8ec443" />
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 50 PM" src="https://github.com/user-attachments/assets/89a13192-5595-4a1b-8f70-a7505a470cd2" />
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 56 PM" src="https://github.com/user-attachments/assets/79a1e12d-4407-4d7e-a5cc-bfb842296ac5" />
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 31 03 PM" src="https://github.com/user-attachments/assets/b430ff63-10e8-497f-831d-47d5e89c2890" />
+
 
 ### 🧑‍🔧 Staff Panel
-![Staff Dashboard](screenshots/staff-dashboard.png)  
-![Update Status](screenshots/update-status.png)
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 31 11 PM" src="https://github.com/user-attachments/assets/db4dc828-cf42-4b2e-af1d-f2b689698188" />
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 34 32 PM" src="https://github.com/user-attachments/assets/b9e37b30-1e2b-4af4-a013-558754f3d786" />
+<img width="1284" height="606" alt="Screenshot 2026-01-03 at 9 35 50 PM" src="https://github.com/user-attachments/assets/1577c6e2-0489-4a21-a2c9-1229586e0f6d" />
+<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 35 09 PM" src="https://github.com/user-attachments/assets/0413f998-a8c7-4270-8fc5-d336fec71cb3" />
 
 ---
 
