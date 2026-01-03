@@ -1,0 +1,44 @@
+/* 1️⃣ ALL imports must come first */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  background-color: #0b0f1a;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* 2️⃣ Tailwind utility extensions */
+@layer utilities {
+  .font-cta {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    letter-spacing: 0.04em;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* 3️⃣ Reusable auth styles (violet → indigo theme) */
+.auth-input {
+  @apply w-full mb-4 px-4 py-3 rounded-xl
+         bg-black/40
+         text-white
+         placeholder-gray-400
+         border border-white/10
+         outline-none
+         focus:ring-2 focus:ring-violet-500/30
+         focus:border-violet-500;
+}
+
+
+.auth-btn {
+  @apply w-full py-3 rounded-xl
+         bg-gradient-to-r from-violet-500 to-indigo-500
+         font-semibold mt-2;
+}
