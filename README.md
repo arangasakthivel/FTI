@@ -62,8 +62,11 @@ Traditional hostel complaint systems are slow, manual, and lack transparency.
 
 ### 🔐 Authentication
 
-<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 28 41 PM" src="https://github.com/user-attachments/assets/9882ab3a-e85d-4acd-86f3-1708f5110ab2" />
-<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 28 45 PM" src="https://github.com/user-attachments/assets/e7bed974-364c-426d-bc91-7cf509bbece9" />
+<img width="1440" height="781" alt="Screenshot 2026-01-03 at 9 50 35 PM" src="https://github.com/user-attachments/assets/cc4ba63e-f0a6-4a4a-955a-28471b8a1a39" />
+
+<img width="1440" height="781" alt="Screenshot 2026-01-03 at 9 50 41 PM" src="https://github.com/user-attachments/assets/45c39e50-fcce-4aa8-bda7-8c818c3db32e" />
+
+<br>
 
 ### 👩‍🎓 Student Dashboard
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 29 19 PM" src="https://github.com/user-attachments/assets/135f350f-f922-4b95-8163-87cede6f1c85" />
