@@ -36,4 +36,4 @@ const CursorGlow = () => {
   );
 };
 
-export default CursorGlow;
+export default cursorGlow;
