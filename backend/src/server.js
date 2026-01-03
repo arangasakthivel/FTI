@@ -95,7 +95,7 @@ app.use(
 );
 
 // ✅ Handle preflight requests
-app.options("*", cors());
+
 
 /* ============================
    MIDDLEWARES
