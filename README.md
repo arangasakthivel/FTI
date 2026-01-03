@@ -101,3 +101,139 @@ Traditional hostel complaint systems are slow, manual, and lack transparency.
 
 ## 🗂️ Project Structure
 
+```
+FTI/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── api/
+│   │   └── App.jsx
+│   ├── .env
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   ├── seed/
+│   │   └── server.js
+│   ├── .env
+│   └── package.json
+│
+├── screenshots/
+│   └── *.png
+│
+└── README.md
+```
+
+---
+
+## 🔐 Authentication & Security
+
+- Passwords hashed using **bcrypt**
+- JWT-based authentication
+- Role-based route protection (frontend + backend)
+- Secure CORS configuration
+
+---
+
+## 📊 Admin Analytics
+
+Admins can view:
+- Total complaints
+- Pending complaints
+- Assigned complaints
+- Resolved complaints
+- Complaints by category
+
+This helps wardens make faster and informed decisions.
+
+---
+
+## ⚙️ Environment Variables
+
+### Backend (`backend/.env`)
+```env
+PORT=5000
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_jwt_secret
+CLIENT_URL=https://fix-the-issue.vercel.app
+```
+
+### Frontend (`frontend/.env`)
+```env
+VITE_API_BASE_URL=https://fti-backend-0uey.onrender.com/api
+```
+
+---
+
+## 🧪 Run Locally
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/arangasakthivel/FTI.git
+cd FTI
+```
+
+### 2️⃣ Start Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Backend runs on: `http://localhost:5000`
+
+### 3️⃣ Start Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs on: `http://localhost:5173`
+
+---
+
+## ☁️ Deployment Details
+
+- **Frontend**: Vercel  
+- **Backend**: Render  
+- **Database**: MongoDB Atlas  
+
+Environment variables are configured in their respective dashboards.
+
+---
+
+## 🧩 Known Limitations
+
+- No email notifications
+- No file attachments for complaints
+- Admin accounts are seeded manually
+
+---
+
+## 🔮 Future Enhancements
+
+- Email / push notifications
+- Complaint attachments (images/videos)
+- Advanced filtering & search
+- SLA tracking
+- Admin audit logs
+
+---
+
+## 👤 Author
+
+**Aranga Sakthivel**  
+🎓 B.Tech Information Technology | VIT  
+💻 GitHub: https://github.com/arangasakthivel  
+
+---
+
+⭐ If you found this project useful, feel free to **star the repository**!
+
+
