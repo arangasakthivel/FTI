@@ -361,7 +361,7 @@ const Auth = () => {
 
     setLoading(true);
     try {
-      await api.post("/auth/register", {
+      await api.post("/api/auth/register", {
         name: signupData.name,
         email: signupData.email,
         password: signupData.password,
@@ -383,7 +383,7 @@ const Auth = () => {
     setLoading(true);
 
     try {
-      const res = await api.post("/auth/login", loginData);
+      const res = await api.post("/api/auth/login", loginData);
       const { token, user } = res.data;
 
       localStorage.setItem("token", token);

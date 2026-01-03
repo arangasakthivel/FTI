@@ -19,7 +19,7 @@ const StaffDashboard = () => {
 
   const fetchAssignedComplaints = async () => {
     try {
-      const res = await api.get("/complaints/assigned");
+      const res = await api.get("/api/complaints/assigned");
       setComplaints(res.data);
     } catch (err) {
       console.error("Failed to fetch assigned complaints", err);
@@ -30,7 +30,7 @@ const StaffDashboard = () => {
 
   const updateStatus = async (id, status) => {
     try {
-      const res = await api.put(`/complaints/${id}/status`, { status });
+      const res = await api.put(`/api/complaints/${id}/status`, { status });
 
       setComplaints((prev) =>
         prev.map((c) =>

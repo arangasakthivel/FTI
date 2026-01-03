@@ -23,8 +23,8 @@ const AdminDashboard = () => {
   const fetchAll = async () => {
     try {
       const [complaintsRes, staffRes] = await Promise.all([
-        api.get("/complaints"),
-        api.get("/users/staff"),
+        api.get("/api/complaints"),
+        api.get("/api/users/staff"),
       ]);
       setComplaints(complaintsRes.data);
       setStaffList(staffRes.data);
@@ -41,7 +41,7 @@ const AdminDashboard = () => {
 
     try {
       const res = await api.put(
-        `/complaints/${complaintId}/assign`,
+        `/api/complaints/${complaintId}/assign`,
         payload
       );
 

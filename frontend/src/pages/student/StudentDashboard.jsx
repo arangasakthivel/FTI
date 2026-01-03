@@ -27,7 +27,7 @@ const StudentDashboard = () => {
   useEffect(() => {
     const fetchComplaints = async () => {
       try {
-        const res = await api.get("/complaints/my");
+        const res = await api.get("/api/complaints/my");
         setComplaints(res.data);
       } catch {
         console.error("Failed to fetch complaints");
@@ -47,7 +47,7 @@ const StudentDashboard = () => {
 
     setSubmitting(true);
     try {
-      const res = await api.post("/complaints", form);
+      const res = await api.post("/api/complaints", form);
 
       setComplaints((prev) => [
         res.data.complaint,
