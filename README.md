@@ -64,29 +64,49 @@ Traditional hostel complaint systems are slow, manual, and lack transparency.
 
 <img width="1440" height="781" alt="Screenshot 2026-01-03 at 9 50 35 PM" src="https://github.com/user-attachments/assets/cc4ba63e-f0a6-4a4a-955a-28471b8a1a39" />
 
+<br>
+
 <img width="1440" height="781" alt="Screenshot 2026-01-03 at 9 50 41 PM" src="https://github.com/user-attachments/assets/45c39e50-fcce-4aa8-bda7-8c818c3db32e" />
 
 <br>
 
 ### 👩‍🎓 Student Dashboard
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 29 19 PM" src="https://github.com/user-attachments/assets/135f350f-f922-4b95-8163-87cede6f1c85" />
 
+<br>
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 29 24 PM" src="https://github.com/user-attachments/assets/7c875ef4-591e-4bdf-be0a-9b49e46cb40c" />
+<br>
 
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 17 PM" src="https://github.com/user-attachments/assets/85c3e5fd-c634-4d9f-b6ec-5500c3e7aa94" />
 
 
 ### 🧑‍💼 Admin (Warden) Panel
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 17 PM" src="https://github.com/user-attachments/assets/19c083c4-3912-416c-a7bc-0c38ea8ec443" />
+<br>
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 50 PM" src="https://github.com/user-attachments/assets/89a13192-5595-4a1b-8f70-a7505a470cd2" />
+<br>
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 30 56 PM" src="https://github.com/user-attachments/assets/79a1e12d-4407-4d7e-a5cc-bfb842296ac5" />
+<br>
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 31 03 PM" src="https://github.com/user-attachments/assets/b430ff63-10e8-497f-831d-47d5e89c2890" />
 
 
 ### 🧑‍🔧 Staff Panel
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 31 11 PM" src="https://github.com/user-attachments/assets/db4dc828-cf42-4b2e-af1d-f2b689698188" />
+<br>
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 34 32 PM" src="https://github.com/user-attachments/assets/b9e37b30-1e2b-4af4-a013-558754f3d786" />
+<br>
+
 <img width="1284" height="606" alt="Screenshot 2026-01-03 at 9 35 50 PM" src="https://github.com/user-attachments/assets/1577c6e2-0489-4a21-a2c9-1229586e0f6d" />
+<br>
+
 <img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 35 09 PM" src="https://github.com/user-attachments/assets/0413f998-a8c7-4270-8fc5-d336fec71cb3" />
 
 ---
