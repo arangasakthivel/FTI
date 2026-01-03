@@ -10,7 +10,7 @@ import AdminDashboard from "./pages/admin/AdminDashboard";
 import StaffDashboard from "./pages/staff/StaffDashboard";
 
 import ProtectedRoute from "./routes/ProtectedRoute";
-import CursorGlow from "./components/cursorGlow.jsx";
+import CursorGlow from "../src/components/cursorGlow/CursorGlow";
 
 function App() {
   return (
