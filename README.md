@@ -5,7 +5,7 @@
 Students raise complaints, wardens manage them, and staff resolve them — all through a transparent, role-based workflow.
 
 🌐 **Live Website**: https://fix-the-issue.vercel.app  
-🔗 **Backend API**: https://fti-backend-0uey.onrender.com  
+
 
 ---
 
@@ -165,7 +165,7 @@ CLIENT_URL=https://fix-the-issue.vercel.app
 
 ### Frontend (`frontend/.env`)
 ```env
-VITE_API_BASE_URL=https://fti-backend-0uey.onrender.com/api
+VITE_API_BASE_URL=https: URL
 ```
 
 ---
