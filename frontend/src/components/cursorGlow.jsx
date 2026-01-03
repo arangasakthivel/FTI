@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const CursorGlow = () => {
+const cursorGlow = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
