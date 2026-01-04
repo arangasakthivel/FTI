@@ -453,9 +453,18 @@ const Auth = () => {
                 </span>
               </div>
 
-              <button onClick={handleLogin} disabled={loading} className="auth-btn mt-4">
-                Sign In
-              </button>
+              <motion.button
+  onClick={handleLogin}
+  disabled={loading}
+  className="auth-btn mt-4"
+  whileHover={{ scale: 1.03 }}
+  whileTap={{ scale: 0.95 }}
+  animate={loading ? { opacity: 0.7 } : { opacity: 1 }}
+  transition={{ type: "spring", stiffness: 300 }}
+>
+  {loading ? "Signing In..." : "Sign In"}
+</motion.button>
+
 
               <p className="text-sm text-gray-400 mt-6">
                 Don’t have an account?{" "}
@@ -523,9 +532,18 @@ const Auth = () => {
               {showPasswordMismatch && <p className="text-red-400 text-sm mt-2">Passwords do not match</p>}
               {signupError && !showPasswordMismatch && <p className="text-red-400 text-sm mt-2">{signupError}</p>}
 
-              <button onClick={handleSignup} disabled={loading} className="auth-btn mt-4">
-                Sign Up
-              </button>
+             <motion.button
+  onClick={handleSignup}
+  disabled={loading}
+  className="auth-btn mt-4"
+  whileHover={{ scale: 1.03 }}
+  whileTap={{ scale: 0.95 }}
+  animate={loading ? { opacity: 0.7 } : { opacity: 1 }}
+  transition={{ type: "spring", stiffness: 300 }}
+>
+  {loading ? "Creating Account..." : "Sign Up"}
+</motion.button>
+
 
               <p className="text-sm text-gray-400 mt-6">
                 Already have an account?{" "}
