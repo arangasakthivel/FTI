@@ -76,7 +76,8 @@ Traditional hostel complaint systems are slow, manual, and lack transparency.
 
 &nbsp;
 
-<img width="1439" height="779" alt="Screenshot 2026-01-03 at 9 29 24 PM" src="https://github.com/user-attachments/assets/7c875ef4-591e-4bdf-be0a-9b49e46cb40c" />
+<img width="1440" height="780" alt="Screenshot 2026-01-07 at 12 44 04 PM" src="https://github.com/user-attachments/assets/7e2393bf-8dbe-4eb7-9d3b-da6a08204daf" />
+
 
 &nbsp;
 
